@@ -1,0 +1,70 @@
+===========================================================================
+                               ACCURACY LOG                                
+===========================================================================
+
+Result for the Dataset Name : Augmented_16_1_DatasetPNEUMONIASharpen20
+
+Model used for Training : RESNET18
+
+Dataset Name : chest_X_ray_pneumonia
+
+Classes : Normal , Pneumonia 
+
+Developer Name : Allena Venkata Sai Abhishek
+
+===========================================================================
+
+For train_dataset
+labels : ['Pneumonia', 'Normal']
+lbls_indices dictionary : {'Pneumonia': 0, 'Normal': 1}
+===============================
+For test_dataset
+labels : ['NORMAL', 'PNEUMONIA']
+lbls_indices dictionary : {'NORMAL': 0, 'PNEUMONIA': 1}
+===============================
+Total number of images in train dataset : 2400
+Total number of images in test dataset : 468
+
+===========================================================================
+
+device used : cuda
+
+===========================================================================
+
+ Training Phase : Epoch 1/20 : Train loss: 0.01179 -- Train accuracy: 86.91667 % -- Test accuracy: 49.78632 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 2/20 : Train loss: 0.00725 -- Train accuracy: 85.18131 % -- Test accuracy: 25.21368 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 3/20 : Train loss: 0.01320 -- Train accuracy: 80.68340 % -- Test accuracy: 23.29060 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 4/20 : Train loss: 0.00996 -- Train accuracy: 81.34589 % -- Test accuracy: 23.29060 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 5/20 : Train loss: 0.00437 -- Train accuracy: 82.25244 % -- Test accuracy: 21.36752 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 6/20 : Train loss: 0.00309 -- Train accuracy: 81.13668 % -- Test accuracy: 21.36752 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 7/20 : Train loss: 0.00811 -- Train accuracy: 81.79916 % -- Test accuracy: 21.15385 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 8/20 : Train loss: 0.00477 -- Train accuracy: 83.26360 % -- Test accuracy: 21.15385 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 9/20 : Train loss: 0.00192 -- Train accuracy: 83.57741 % -- Test accuracy: 21.36752 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 10/20 : Train loss: 0.00739 -- Train accuracy: 83.08926 % -- Test accuracy: 23.07692 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 11/20 : Train loss: 0.00197 -- Train accuracy: 83.99582 % -- Test accuracy: 20.72650 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 12/20 : Train loss: 0.00517 -- Train accuracy: 84.51883 % -- Test accuracy: 20.29915 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 13/20 : Train loss: 0.00440 -- Train accuracy: 83.92608 % -- Test accuracy: 20.51282 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 14/20 : Train loss: 0.00103 -- Train accuracy: 84.93724 % -- Test accuracy: 19.01709 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 15/20 : Train loss: 0.00371 -- Train accuracy: 84.17015 % -- Test accuracy: 20.29915 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 16/20 : Train loss: 0.00188 -- Train accuracy: 84.72803 % -- Test accuracy: 18.80342 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 17/20 : Train loss: 0.00246 -- Train accuracy: 84.44909 % -- Test accuracy: 20.08547 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 18/20 : Train loss: 0.00270 -- Train accuracy: 85.00697 % -- Test accuracy: 19.87179 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 19/20 : Train loss: 0.00049 -- Train accuracy: 85.21618 % -- Test accuracy: 19.87179 % -- Time taken per epoch : 0m 57s 
+ Training Phase : Epoch 20/20 : Train loss: 0.00048 -- Train accuracy: 84.76290 % -- Test accuracy: 16.66667 % -- Time taken per epoch : 0m 57s 
+
+===========================================================================
+
+The Final Train Loss : 0.0004844868457631061
+The Least Train Loss : 0.0004844868457631061
+The Final Train Accuracy : 84.7629009762901
+The Best Train Accuracy : 86.91666666666666
+The Final Test Accuracy : 16.666666666666664
+The Best Test Accuracy : 49.78632478632478
+
+===========================================================================
+
+Training complete in 21m 37s
+
+===========================================================================
+
+Test Accuracy : 0.16666666666666666

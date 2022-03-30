@@ -1,0 +1,50 @@
+===========================================================================
+                               ACCURACY LOG                                
+===========================================================================
+
+Result for the Dataset Name : Balanced_Dataset2
+
+Model used for Training : RESNET18
+
+Dataset Name : chest_X_ray_pneumonia
+
+Classes : Normal , Pneumonia 
+
+Developer Name : Allena Venkata Sai Abhishek
+
+===========================================================================
+
+For train_dataset
+labels : ['NORMAL', 'PNEUMONIA']
+lbls_indices dictionary : {'NORMAL': 0, 'PNEUMONIA': 1}
+===============================
+For test_dataset
+labels : ['NORMAL', 'PNEUMONIA']
+lbls_indices dictionary : {'NORMAL': 0, 'PNEUMONIA': 1}
+===============================
+Total number of images in train dataset : 2400
+Total number of images in test dataset : 468
+
+===========================================================================
+
+device used : cuda
+
+===========================================================================
+
+ Training Phase : Epoch 1/2 : Train loss: 0.01365 -- Train accuracy: 68.20833 % -- Test accuracy: 50.21368 % -- Time taken per epoch : 0m 47s 
+ Training Phase : Epoch 2/2 : Train loss: 0.00942 -- Train accuracy: 75.10460 % -- Test accuracy: 69.23077 % -- Time taken per epoch : 0m 47s 
+
+===========================================================================
+
+The Final Train Loss : 0.009415134003287867
+The Least Train Loss : 0.009415134003287867
+The Final Train Accuracy : 75.10460251046025
+The Best Train Accuracy : 75.10460251046025
+
+===========================================================================
+
+Training complete in 1m 50s
+
+===========================================================================
+
+Test Accuracy : 0.6923076923076923

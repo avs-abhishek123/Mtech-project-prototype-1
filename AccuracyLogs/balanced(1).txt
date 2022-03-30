@@ -1,0 +1,42 @@
+===========================================================================
+                               ACCURACY LOG                                
+===========================================================================
+
+Result for the Dataset Name : Balanced Dataset
+
+Model used for Training : RESNET18
+
+Dataset Name : Intel Scenery
+
+Classes : buildings , sea 
+
+Developer Name : Allena Venkata Sai Abhishek
+
+===========================================================================
+
+For train_dataset
+labels : ['buildings', 'sea']
+lbls_indices dictionary : {'buildings': 0, 'sea': 1}
+===============================
+For test_dataset
+labels : ['buildings', 'sea']
+lbls_indices dictionary : {'buildings': 0, 'sea': 1}
+===============================
+Total number of images in train dataset : 4000
+Total number of images in test dataset : 864
+device used : cpu
+ Training Phase : Epoch 1/10..Train loss: 0.45837746442310395.. Train accuracy: 0.78975
+ Training Phase : Epoch 2/10..Train loss: 0.874963946285702.. Train accuracy: 0.800125
+ Training Phase : Epoch 3/10..Train loss: 1.2724491208791733.. Train accuracy: 0.8069166666666666
+ Training Phase : Epoch 4/10..Train loss: 1.6719056630418414.. Train accuracy: 0.8103125
+ Training Phase : Epoch 5/10..Train loss: 2.052059479885631.. Train accuracy: 0.81575
+ Training Phase : Epoch 6/10..Train loss: 2.4165785620136866.. Train accuracy: 0.8199166666666666
+ Training Phase : Epoch 7/10..Train loss: 2.778825517921221.. Train accuracy: 0.823
+ Training Phase : Epoch 8/10..Train loss: 3.1280482456324594.. Train accuracy: 0.8259375
+ Training Phase : Epoch 9/10..Train loss: 3.4893611707384626.. Train accuracy: 0.8279166666666666
+ Training Phase : Epoch 10/10..Train loss: 3.8286902485858825.. Train accuracy: 0.83075
+The Final Train Loss : 3.8286902485858825
+The Final Train Accuracy : 0.83075
+The Best Train Accuracy : 0.83075
+Training complete in 56m 49s
+Test Accuracy : 0.8634259259259259

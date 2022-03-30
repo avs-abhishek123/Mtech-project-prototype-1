@@ -1,0 +1,26 @@
+For train_dataset
+labels : ['sea', 'buildings']
+lbls_indices dictionary : {'sea': 0, 'buildings': 1}
+===============================
+For test_dataset
+labels : ['buildings', 'sea']
+lbls_indices dictionary : {'buildings': 0, 'sea': 1}
+===============================
+Total number of images in train dataset : 3000
+Total number of images in test dataset : 3000
+device used : cpu
+ Training Phase : Epoch 1/10..Train loss: 0.4663910206328047.. Train accuracy: 0.7763333333333333
+ Training Phase : Epoch 2/10..Train loss: 0.8658676997144171.. Train accuracy: 0.7986666666666666
+ Training Phase : Epoch 3/10..Train loss: 1.2510102616345629.. Train accuracy: 0.8083333333333333
+ Training Phase : Epoch 4/10..Train loss: 1.6342095504415797.. Train accuracy: 0.8130833333333334
+ Training Phase : Epoch 5/10..Train loss: 1.993700789327317.. Train accuracy: 0.819
+ Training Phase : Epoch 6/10..Train loss: 2.3646904956153096.. Train accuracy: 0.8234444444444444
+ Training Phase : Epoch 7/10..Train loss: 2.7099034951088274.. Train accuracy: 0.8272857142857143
+ Training Phase : Epoch 8/10..Train loss: 3.0546173538933408.. Train accuracy: 0.8290833333333333
+ Training Phase : Epoch 9/10..Train loss: 3.3969335330927626.. Train accuracy: 0.8311481481481482
+ Training Phase : Epoch 10/10..Train loss: 3.7250450060088585.. Train accuracy: 0.8332
+The Final Train Loss : 3.7250450060088585
+The Final Train Accuracy : 0.8332
+The Best Train Accuracy : 0.8332
+Training complete in 43m 33s
+Test Accuracy : 0.13425925925925927
