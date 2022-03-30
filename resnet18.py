@@ -10,8 +10,6 @@ from PIL import Image
 #from pdb import set_trace as bp 
 # can be used for putting up a break point while debugging
 
-#%matplotlib inline
-#%config InlineBackend.figure_format = 'retina'
 import matplotlib.pyplot as plt
 
 import numpy as np
@@ -54,8 +52,9 @@ class CustomizedClassificationPyTorchDataset(data.Dataset):
         self.lbls = []
 
         #just reading the sub dirs in imageFolderRoot i.e buildings, sea
-        labels =os.listdir(imageFolderRoot)
-
+        # labels = os.listdir(imageFolderRoot)
+        labels = ["buildings","sea"]
+        
         lbls_indices = dict()
 
         for index, label in enumerate(labels):
@@ -97,7 +96,7 @@ class CustomizedClassificationPyTorchDataset(data.Dataset):
 # ===========================================================================
 
 # FOR COLAB
-sys.stdout = open('/content/drive/MyDrive/AccuracyLogs/balanced.txt', 'w+')
+sys.stdout = open('AccuracyLogs/sample_accuracy_log/balanced.txt', 'w+')
 
 # for augmented dataset log
 # print("===========================================================================")
@@ -151,11 +150,11 @@ print()
 #For COLAB
 
 # train datset
-traindatadir = "/content/drive/MyDrive/Datasets/IntelScenery2Classes/balancedDataset/train"
+traindatadir = "Datasets/balancedDataset/train"
 
 # fixed test dataset
 
-testdatadir = "/content/drive/MyDrive/Datasets/IntelScenery2Classes/StaticTestSet/test"
+testdatadir = "Datasets/StaticTestSet/test"
 
 
 def load_train_test(traindatadir,testdatadir):
@@ -183,6 +182,8 @@ def load_train_test(traindatadir,testdatadir):
     
     return trainloader, testloader
 
+
+trainloader, testloader = load_train_test(traindatadir,testdatadir)
 
 # using CUDA
 #device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
