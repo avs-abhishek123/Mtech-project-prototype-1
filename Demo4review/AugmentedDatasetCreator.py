@@ -103,10 +103,10 @@ class AugDataCreator():
         for augmentationtype in self.allsupportedTransformList:
             if self.AugType==augmentationtype:
                 augm_obj=AugStatic(img2,1)
-                augm=eval("augm_obj."+augmentationtype+"()")
+                aug_img = eval("augm_obj."+augmentationtype+"()")
                 # REFER
                 # https://java2blog.com/python-string-to-function/
-                aug_img=augm               
+                # aug_img=augm               
                 #aug_img=AugStatic.eval(AugType)(self, img2)
             else:
                 continue
