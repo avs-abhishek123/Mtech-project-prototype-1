@@ -1,4 +1,4 @@
-from AugmentationLibrary.StaticTransforms.staticTransforms import StaticTransformDataGenerator as AugStatic
+from staticTransforms import StaticTransformDataGenerator as AugStatic
 import PIL
 import cv2
 from PIL import Image
