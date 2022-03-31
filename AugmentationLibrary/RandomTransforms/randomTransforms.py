@@ -2,33 +2,31 @@
 import pprint as pp
 import numpy as np
 import cv2
-import IPython
 import os
 import json
 import random
-import PIL
-import urllib
-from PIL import Image
-#from tensorflow import keras
-#from tensorflow.python.keras.utils.data_utils import Sequence
 
-from torchvision import transforms
+import PIL
+from PIL import Image
 from PIL import Image as PILImage
 from PIL import ImageDraw as PILImageDraw
-#import tensorflow as tf
-from typing import List, Optional, Sequence, Tuple, Union
-import requests
-from io import BytesIO
-import math
+
 from typing import Any, Callable,Dict, List, Optional, Sequence, Tuple, Union
-import glob
+# Typing defines a standard notation for Python function and variable type annotations. 
+# The notation can be used for documenting code in a concise, standard format, 
+# and it has been designed to also be used by static and runtime type checkers, static analyzers, IDEs and other tools.
+
 import matplotlib.pyplot as plt
-import shutil 
-import os 
-import base64
+
 import torch
+from torchvision import transforms
+
 import albumentations as A
+
 from functools import wraps
+# Functools module is for higher-order functions that work on other functions. 
+# It provides functions for working with other functions and callable objects to use or extend them without completely rewriting them.
+
 
 
 
